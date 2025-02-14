@@ -6,6 +6,7 @@
     --color-button-hover: #e55720;
     --color-text: #444444;
     --color-white: #FFFFFF;
+    /* --color-active: #0B89FD; */
 }
 
 /* Estilos gerais */
@@ -116,14 +117,22 @@ button {
 }
 
 .button-add {
+    /* background-color: var(--color-active); */
     background-color: var(--color-tertiary);
     color: var(--color-text);
     border-radius: 0 25px 25px 0;
 }
 
 .button-add:hover {
-    background-color: #a1a1a1;
+    font-size: 17px;
+    transform: scale(1.03);
+    border-color: #422;
+    box-shadow: 0 4px 25px #4B69FD;
 }
+
+/* button:disabled {
+    background-color: var(--color-tertiary);
+} */
 
 /* Listas */
 ul {
